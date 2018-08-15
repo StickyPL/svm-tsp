@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 def read_tsp(filename):
     """
     Read a file in .tsp format into a pandas DataFrame
@@ -41,6 +42,7 @@ def read_tsp(filename):
         # cities.set_index('city', inplace=True)
 
         return cities
+
 
 def normalize(points):
     """
